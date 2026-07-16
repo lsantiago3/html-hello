@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official-style artist landing page celebrating Miles Davis, featuring biography, upcoming Philadelphia events, and discography highlights.">
+  <title>Miles Davis | Artist Landing Page</title>
+  <link rel="preload" as="image" href="images/miles-portrait.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Miles Davis",
+      "alternateName": "Miles Dewey Davis III",
+      "description": "Miles Davis was an American trumpeter, bandleader, and composer, widely considered one of the most influential jazz musicians in history.",
+      "jobTitle": "Trumpeter, Bandleader, Composer",
+      "birthDate": "1926-05-26",
+      "deathDate": "1991-09-28",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "Alton, Illinois, United States"
+      },
+      "nationality": "American",
+      "genre": [
+        "Jazz",
+        "Bebop",
+        "Cool Jazz",
+        "Modal Jazz",
+        "Jazz Fusion"
+      ],
+      "image": "images/miles-portrait.jpg",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Miles_Davis",
+        "https://www.britannica.com/biography/Miles-Davis"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header id="top">
+    <nav aria-label="Main navigation">
+      <a href="#top" class="brand">Miles Davis</a>
+      <ul>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#career">Career</a></li>
+        <li><a href="#events">Upcoming Events</a></li>
+        <li><a href="#discography">Discography</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <h1>Miles Davis</h1>
+      <p>Trumpeter. Innovator. Architect of modern jazz.</p>
+      <img
+        src="images/miles-portrait.jpg"
+        alt="Miles Davis performing with trumpet on stage"
+        width="600"
+        height="600"
+        fetchpriority="high"
+        decoding="async"
+      >
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section id="biography" aria-labelledby="biography-title">
+      <h2 id="biography-title">Biographical Information</h2>
+      <p>
+        Miles Dewey Davis III (1926-1991) transformed jazz across multiple eras, from bebop and cool jazz
+        to modal and electric fusion. Born in Alton, Illinois, and raised in East St. Louis, he moved to New York
+        in the 1940s and studied at Juilliard while learning directly from pioneers in the bebop scene.
+      </p>
+      <p>
+        His landmark recordings, including <em>Birth of the Cool</em>, <em>Kind of Blue</em>, and <em>Bitches Brew</em>,
+        redefined what jazz could sound like. Davis was known for assembling visionary bands and mentoring
+        artists who later became icons themselves.
+      </p>
+    </section>
+
+    <section id="events" aria-labelledby="events-title">
+      <h2 id="events-title">Upcoming Events in Philadelphia</h2>
+      <div class="cards-grid">
+        <article class="event-card">
+          <h3>Blue Note Revival Night</h3>
+          <p><strong>Date:</strong> October 12, 2026</p>
+          <p><strong>Venue:</strong> Kimmel Cultural Campus</p>
+          <p><strong>Address:</strong> 300 S Broad St, Philadelphia, PA</p>
+          <p>An intimate evening focused on the modal magic of <em>Kind of Blue</em>.</p>
+        </article>
+
+        <article class="event-card">
+          <h3>Electric Miles Live</h3>
+          <p><strong>Date:</strong> November 7, 2026</p>
+          <p><strong>Venue:</strong> The Fillmore Philadelphia</p>
+          <p><strong>Address:</strong> 29 E Allen St, Philadelphia, PA</p>
+          <p>A high-energy set revisiting the bold sonic world of Davis' fusion years.</p>
+        </article>
+
+        <article class="event-card">
+          <h3>Midnight at the Vanguard</h3>
+          <p><strong>Date:</strong> December 3, 2026</p>
+          <p><strong>Venue:</strong> World Cafe Live</p>
+          <p><strong>Address:</strong> 3025 Walnut St, Philadelphia, PA</p>
+          <p>A late-night program of classics and improvisations inspired by Miles' small-group era.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="career" aria-labelledby="career-title">
+      <h2 id="career-title">Career Highlights</h2>
+      <p>
+        Davis continuously reinvented his sound over five decades, shaping multiple jazz movements and
+        launching the careers of many legendary musicians.
+      </p>
+      <ul class="career-list">
+        <li><strong>1940s:</strong> Joined Charlie Parker's circle and became a key voice in bebop.</li>
+        <li><strong>1950s:</strong> Led cool jazz sessions and formed his influential first great quintet.</li>
+        <li><strong>1959:</strong> Released <em>Kind of Blue</em>, one of the most celebrated jazz records ever.</li>
+        <li><strong>1960s-70s:</strong> Pioneered electric jazz and fusion with bold studio experimentation.</li>
+      </ul>
+    </section>
+
+    <section id="discography" aria-labelledby="discography-title">
+      <h2 id="discography-title">Discography Highlights</h2>
+      <div class="albums">
+        <article class="album-card">
+          <img
+            src="images/miles-portrait.jpg"
+            alt="Miles Davis portrait"
+            loading="lazy"
+            width="600"
+            height="600"
+            decoding="async"
+          >
+          <h3>Kind of Blue (1959)</h3>
+          <p>A defining modal jazz album and one of the most influential recordings ever released.</p>
+        </article>
+
+        <article class="album-card">
+          <img
+            src="images/bitches-brew.jpg"
+            alt="Bitches Brew album cover"
+            loading="lazy"
+            width="300"
+            height="300"
+            decoding="async"
+          >
+          <h3>Bitches Brew (1970)</h3>
+          <p>The groundbreaking record that launched jazz fusion into the mainstream.</p>
+        </article>
+
+        <article class="album-card">
+          <img
+            src="images/in-a-silent-way.jpg"
+            alt="In a Silent Way album cover"
+            loading="lazy"
+            width="300"
+            height="300"
+            decoding="async"
+          >
+          <h3>In a Silent Way (1969)</h3>
+          <p>A meditative, atmospheric bridge between acoustic jazz and electric experimentation.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Miles Davis Tribute Site. Built by Leonard Santiago. All rights reserved.</p>
+  </footer>
+</body>
+</html>
